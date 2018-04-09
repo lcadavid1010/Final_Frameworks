@@ -1,0 +1,37 @@
+
+.header{
+  background-color: #48CBEC;
+  min-height: 150px;
+}
+
+.logo{
+align-items: center;
+}
+
+.img-logo{
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 180px;
+}
+
+.redes-sociales{
+  margin-top: 90px;
+  margin-bottom: 4px;
+}
+
+.img-sociales{
+  margin-left: 5px;
+}
+
+.navbar{
+  background: #3498DB;
+  border-radius: 0px;
+}
+
+.text-navbar{
+  color: white;
+}
+
+.textobarra{
+  color: white;
+}
