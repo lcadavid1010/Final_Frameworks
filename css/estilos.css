@@ -1,3 +1,7 @@
+body{
+  background: #EAF2F8;
+}
+
 
 .header{
   background-color: #48CBEC;
@@ -28,10 +32,50 @@ align-items: center;
   border-radius: 0px;
 }
 
-.text-navbar{
-  color: white;
+.textobarra{
+  color: #FFFFFF;
+  text-align: center;
 }
 
-.textobarra{
-  color: white;
+.articulo{
+  background: #FBFCFC;
+  min-height: 250px;
+
+}
+
+.articulo2{
+  background: #FBFCFC;
+  min-height: 250px;
+}
+
+.articulo3{
+  background: yellow;
+  min-height: 500px;
+}
+
+.img-art{
+  margin-top: 30px
+}
+
+.text-area{
+  margin-top: 10px;
+}
+
+.img-tex-area{
+  width: 80px;
+  margin-top: 5px;
+
+}
+
+@media (min-width: 900px) {
+  .text-navbar{
+    margin-left: 50px;
+  }
+
+}
+
+@media (max-width: 900px) {
+  .articulo3{
+    display: none;
+  }
 }
