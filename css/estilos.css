@@ -38,19 +38,27 @@ align-items: center;
 }
 
 .articulo{
-  background: #FBFCFC;
+
   min-height: 250px;
 
 }
 
 .articulo2{
-  background: #FBFCFC;
+
   min-height: 250px;
 }
 
 .articulo3{
-  background: yellow;
-  min-height: 500px;
+
+  padding:8px;
+}
+
+.color-body{
+  background: #FBFCFC;
+}
+
+.formulario-busqueda{
+  margin-top: 3px;
 }
 
 .img-art{
