@@ -1,0 +1,106 @@
+.body-backgroud{
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+  background-attachment: fixed
+}
+
+.contenedor-background{
+  background-color: rgba(212, 230, 241, 0.6);
+  min-height: 500px;
+}
+
+.articulo1{
+  min-height: 150px;
+  padding: 10px;
+}
+
+.articulo2{
+  min-height: 150px;
+
+}
+
+.articulo3{
+  min-height: 400px;
+  background-color: rgba(212, 230, 241);
+  padding: 15px;
+}
+
+.articulo4{
+  min-height: 400px;
+  background: #F7DC6F;
+  padding: 15px;
+}
+
+.img-favoritos{
+
+  padding: 4px;
+}
+
+.img-favoritos2{
+
+    border-radius: 2px;
+    padding: 5px;
+    width: 150px;
+    background: white;
+}
+
+.boton-menu{
+
+  border:  1px solid #5DADE2;
+}
+
+.boton-menu :hover{
+  background: white;
+}
+
+.nombre-logo{
+  margin-top: 30px;
+}
+
+.favoritos{
+  margin-top: 20px;
+}
+
+hr{
+  background-color: gray;
+  height: 1px;
+  border: none;
+  width: 100%;
+}
+
+.lista-historial{
+  margin-left: 30px;
+}
+
+#Fechas{
+  color: #5DADE2;
+}
+
+.img-articulos{
+  width: 100%;
+}
+
+.text-articulos{
+  margin-top: 20px;
+}
+
+.user-Comentario{
+  border:  1px solid #5DADE2;
+  padding: 10px;
+  border-radius: 9px;
+  margin-bottom: 15px;
+}
+
+.area{
+  border: 0px;
+  margin: 0px;
+}
+
+
+
+@media (max-width: 600px) {
+  .articulo1, .articulo2, .articulo3{
+    display: none;
+  }
+  }
+}
