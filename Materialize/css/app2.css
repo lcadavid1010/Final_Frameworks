@@ -1,0 +1,11 @@
+.contenido{
+  min-height: 300px;
+  background: yellow;
+  margin-top: 0px;
+}
+
+.contenido2{
+  min-height: 500px;
+  background: blue;
+  margin-top: 0px;
+}

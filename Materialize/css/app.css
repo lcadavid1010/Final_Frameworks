@@ -1,0 +1,97 @@
+
+body{
+  background: url("../img/1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 160px;
+  margin: 0;
+}
+
+#cabecera{
+  width: 100%;
+  height: 160px;
+  background-color: #fff8e1;
+  float: inherit;
+  position: fixed;
+  margin-left: 0px;
+}
+
+.principal{
+position: relative;
+}
+
+.logo{
+  width: 200px;
+  margin-top: 80px;
+}
+
+.header-menu{
+  padding-top: 15px !important;
+}
+
+.header-eslogan{
+  color: black;
+  margin-top: 120px;
+}
+
+.contenido2{
+  min-height: 300px;
+  background: blue;
+  margin-top: 0px;
+}
+.socia-media-contenedor{
+  padding: 10px !important;
+}
+
+.img-article{
+  width: 40%;
+  float: left;
+  margin-top: 15px;
+}
+
+.articulo{
+  padding: 5px;
+}
+
+.parrafo-justicado{
+  text-align: justify;
+}
+
+#img-autor{
+  width: 50%;
+}
+
+hr{
+  width: 90%;
+}
+
+/* label color */
+   .input-field label {
+     color: white;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #ff6f00;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #ff6f00;
+     box-shadow: 0 1px 0 0 #ff6f00;
+   }
+
+   /* icon prefix focus color */
+.input-field .prefix.active {
+  color: white;
+}
+
+
+/* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #ff6f00;
+    box-shadow: 0 1px 0 0 #ff6f00;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #ff6f00;
+    box-shadow: 0 1px 0 0 #ff6f00;
+  }
